@@ -4,13 +4,29 @@
 To connect computers in multiple networks using Distance Vector Routing Protocol and to verify the connectivity between computers.
 # EQUIPMENTS REQUIRED:
 
-
+PC With Cisco Packet Tracer 5.0 Software
 
 # IP ASSIGNMENT:
+
+| NAME     | IP ADDRESS      | SUBNET MASK     | NETWORK       | CLASS | GATEWAY         |
+|----------|------------------|------------------|---------------|-------|------------------|
+| PC0      | 192.168.0.1      | 255.255.255.0    | 192.168.0.0   | C     | 192.168.0.200    |
+| PC1      | 192.168.0.2      | 255.255.255.0    | 192.168.0.0   | C     | 192.168.0.200    |
+| PC2      | 192.168.1.1      | 255.255.255.0    | 192.168.1.0   | C     | 192.168.1.200    |
+| PC3      | 192.168.1.2      | 255.255.255.0    | 192.168.1.0   | C     | 192.168.1.200    |
+| PC4      | 192.168.2.1      | 255.255.255.0    | 192.168.2.0   | C     | 192.168.2.200    |
+| PC5      | 192.168.2.2      | 255.255.255.0    | 192.168.2.0   | C     | 192.168.2.200    |
+| ROUTER0  | 192.168.0.200    | 255.255.255.0    | 192.168.0.0   | C     | -                |
+| ROUTER0  | 192.168.1.200    | 255.255.255.0    | 192.168.1.0   | C     | -                |
+| ROUTER1  | 192.168.1.201    | 255.255.255.0    | 192.168.1.0   | C     | -                |
+| ROUTER1  | 192.168.2.200    | 255.255.255.0    | 192.168.2.0   | C     | -                |
 
 
 
 # NETWORK DIAGRAM:
+
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/c3dc3675-45cb-438f-af05-631fd46cb4c9" />
+
 # PROCEDURE:
 
 STEP 1: Open a Packet Tracer Software.
@@ -80,7 +96,7 @@ You can also check connectivity between the PCs on different networks to ensure 
  
 # OUTPUT
 
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f06ad159-2b37-4855-b612-962bca23f9af" />
 
 # RESULT:
 
